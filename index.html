@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ochrecut — dig the clay, pour the pigment</title>
+<meta name="description" content="Ochrecut is a calm iOS puzzle: dig clay so ochre, cinnabar and lapis pour like sand into matching glazed pots. No timer, no lives, no ads. Coming soon to the App Store.">
+<link rel="canonical" href="https://nguyenvanlamm.github.io/ochrecut-site/">
+<link rel="icon" href="favicon.png">
+<meta property="og:title" content="Ochrecut — dig the clay, pour the pigment">
+<meta property="og:description" content="A calm puzzle about which clay to dig, so every grain of pigment lands in the right pot. No timer, no lives, no ads.">
+<meta property="og:image" content="https://nguyenvanlamm.github.io/ochrecut-site/assets/icon.png">
+<meta name="theme-color" content="#E6DAC6">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Karla:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--sky:#E6DAC6;--sky2:#F3EBDD;--sun:#E8C98A;--ridge:#C9A27A;--clay:#B9774E;--clayd:#8E5634;--stratum:#6E4F3C;--slate:#5B5753;--ink:#3A2A20;--bone:#EFE6D8;--accent:#8E4F26}
+*{box-sizing:border-box;margin:0}
+body{font-family:Karla,system-ui,sans-serif;color:var(--ink);background:var(--bone);line-height:1.55;font-size:17px}
+a{color:var(--accent)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.hero{background:linear-gradient(var(--sky),var(--sky2));position:relative;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-top:56px;padding-bottom:24px}
+.brand{display:flex;align-items:center;gap:12px;font-family:Fraunces,serif;font-weight:600;font-size:22px}
+.brand img{width:44px;height:44px;border-radius:12px}
+h1{font-family:Fraunces,serif;font-weight:600;font-size:clamp(40px,6vw,64px);line-height:1.04;letter-spacing:-1px;margin:28px 0 16px}
+h1 em{font-style:normal;color:var(--accent)}
+.lede{font-size:19px;max-width:30em;color:#4A382C}
+.cta{display:inline-block;margin-top:26px;background:var(--ink);color:var(--bone);text-decoration:none;font-weight:700;padding:16px 26px;border-radius:14px 14px 14px 4px;box-shadow:0 6px 0 #26190F}
+.note{margin-top:14px;font-size:14px;color:#6b5a4c}
+.shots{display:flex;gap:16px;justify-content:center}
+.shots img{width:min(48%,230px);height:auto;border-radius:28px;box-shadow:0 18px 40px rgba(58,42,32,.25)}
+.shots img:last-child{margin-top:48px}
+.ridge{display:block;width:100%;height:70px}
+section{padding:56px 0}
+h2{font-family:Fraunces,serif;font-weight:600;font-size:34px;margin-bottom:22px}
+.features{background:var(--clay);color:var(--bone)}
+.features .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card h3{font-family:Fraunces,serif;font-weight:600;font-size:23px;margin-bottom:8px}
+.card p{color:#F6EDE0}
+.how{background:var(--clayd);color:var(--bone)}
+.how ol{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:22px;counter-reset:s}
+.how li{counter-increment:s}
+.how li::before{content:counter(s);display:block;font-family:Fraunces,serif;font-size:40px;color:var(--sun);line-height:1}
+.faq{background:var(--stratum);color:var(--bone)}
+.faq dt{font-weight:700;font-size:18px;margin-top:18px}
+.faq dd{margin:4px 0 0;color:#EFE3D2;max-width:46em}
+footer{background:var(--slate);color:var(--bone);padding:36px 0 44px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:center}
+footer a{color:var(--bone)}
+@media (max-width:760px){.hero .wrap,.features .grid,.how ol{grid-template-columns:1fr}.shots img:last-child{margin-top:24px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <div class="brand"><img src="assets/icon.png" alt="" width="44" height="44">Ochrecut</div>
+      <h1>Dig the clay. Let the <em>pigment</em> pour.</h1>
+      <p class="lede">A calm puzzle about one decision at a time: which clay to dig, so ochre, cinnabar and lapis run into
+        the right glazed pots. No timer, no lives, no ads.</p>
+      <a class="cta" href="#how">Coming soon to the App Store</a>
+      <p class="note">For iPhone. 30 levels free.</p>
+    </div>
+    <div class="shots">
+      <img src="assets/home.webp" alt="Ochrecut home screen: chapters drawn as layers of a hillside" width="230" height="498">
+      <img src="assets/game.webp" alt="A level: clay cups of pigment, a stone mortar and glazed pots on a rock floor" width="230" height="498">
+    </div>
+  </div>
+  <svg class="ridge" viewBox="0 0 390 70" preserveAspectRatio="none" aria-hidden="true"><path d="M0 70V36C60 20 110 6 170 22c60 16 120-18 220 6v42z" fill="#C9A27A"/><path d="M0 70V52c80-12 150-22 230-8 70 12 110-2 160 2v24z" fill="#B9774E"/></svg>
+</header>
+
+<main>
+  <section class="features">
+    <div class="wrap">
+      <h2>Every grain goes somewhere</h2>
+      <div class="grid">
+        <div class="card"><h3>Plan the pour</h3><p>Pigment falls like sand and slides off ledges. Open the wrong cell and a red
+          grain lands in the ochre pot: muddied. The puzzle is the order you dig in.</p></div>
+        <div class="card"><h3>Grind new colours</h3><p>In The Mill, two primaries meet in a stone mortar and come out as
+          verdigris, saffron or murex for the pots that want a mix.</p></div>
+        <div class="card"><h3>Your pace</h3><p>No clock and no lives. Each level gives you a handful of picks and a par
+          for three stars. Undo, Extra Picks and Hint are there when you are stuck.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how" id="how">
+    <div class="wrap">
+      <h2>How to play</h2>
+      <ol>
+        <li><p>Tap a clay cell to dig it. Each tap is one pick.</p></li>
+        <li><p>Watch the pigment pour and settle, grain by grain.</p></li>
+        <li><p>Fill every pot with its own colour before your picks run out.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="wrap">
+      <h2>Questions</h2>
+      <dl>
+        <dt>What does it cost?</dt>
+        <dd>The first chapter, The Clay Pit (30 levels), is free. A one-time All Mills purchase opens The Mill and The Deep
+          Seam: 60 more levels. Small tool packs are optional.</dd>
+        <dt>Are there ads? What data do you collect?</dt>
+        <dd>No ads and no tracking. There is no account; your progress stays on your device. See the
+          <a href="privacy.html">privacy policy</a>.</dd>
+        <dt>Does it work offline?</dt>
+        <dd>Yes. Every level plays without a connection; only purchases talk to the App Store.</dd>
+        <dt>Which devices?</dt>
+        <dd>iPhone, at launch on the App Store.</dd>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="brand"><img src="assets/icon.png" alt="" width="44" height="44">Ochrecut</div>
+    <nav><a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></nav>
+  </div>
+</footer>
+</body>
+</html>
