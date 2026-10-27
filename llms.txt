@@ -1,0 +1,19 @@
+# Ochrecut
+
+> Ochrecut (planned App Store name "Ochrecut: Pour & Dig Puzzle") is a calm puzzle game for iPhone (iOS 15 or later). Dig clay cells in a hillside cross-section so mineral pigment (ochre, cinnabar, lapis) pours like sand into matching glazed pots. Coming soon to the App Store; not yet available.
+
+- Controls: tap a clay cell to dig it; each tap costs one pick. Pigment falls like sand, settles grain by grain and slides off ledges. Fill every pot with its own colour before the picks run out; a grain of the wrong colour muddies a pot. Each level has a par for three stars.
+- From chapter 2, two primaries meet in a stone mortar and are ground into a mix: verdigris, saffron or murex, for the pots that want one.
+- 90 levels in three chapters: The Clay Pit (30 levels, included free), The Mill and The Deep Seam (60 more with All Mills, a one-time purchase).
+- Tools: Undo (takes back the last dig), Extra Picks (adds three picks), Hint (marks a good cell). Optional tool packs: Tool Pouch and Tool Crate. Restore Purchases is in Settings.
+- No timer, no lives, no ads, no account, no analytics or tracking. Progress stays on the device and the game plays offline; only purchases talk to the App Store. English only.
+
+## Pages
+
+- [Home](https://nguyenvanlamm.github.io/ochrecut-site/): what the game is, how it plays, and questions about cost, data, offline play and devices
+- [Support](https://nguyenvanlamm.github.io/ochrecut-site/support.html): contact, how to play, purchases and restoring, progress
+- [Privacy Policy](https://nguyenvanlamm.github.io/ochrecut-site/privacy.html): what the game stores on the device and what it never collects
+
+## Optional
+
+- [Sitemap](https://nguyenvanlamm.github.io/ochrecut-site/sitemap.xml): the three pages of this site
